@@ -4,3 +4,4 @@ googletrans==4.0.0-rc1
 pinecone
 transformers 
 torch
+nest_asyncio
