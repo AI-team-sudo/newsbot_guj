@@ -128,7 +128,7 @@ if st.button("Search"):
         # Step 3: Search in Pinecone
         with st.spinner("Searching articles..."):
             all_results = []
-            namespaces = ["divyabhasker", "sandesh"]
+            namespaces = ["sandesh"]
 
             index_name = indexes[0].name if indexes else None
             if not index_name:
